@@ -1,0 +1,20 @@
+{
+    "productIdentifier": "tv",
+    "nome": "TV",
+    "preco": 1000.0,
+    "descricao": "Uma televisão",
+    "category": {
+        "id": 1,
+        "nome": "Eletrônico"
+    }
+},
+{
+    "productIdentifier": "video-game",
+    "nome": "Video Game",
+    "preco": 2000.0,
+    "descricao": "Um vídeo game",
+    "category": {
+        "id": 1,
+        "nome": "Eletrônico"
+    }
+}

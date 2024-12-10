@@ -1,0 +1,42 @@
+post insercção
+
+http://localhost:8080/categories
+
+{
+    "name": "Eletrônico"
+}
+
+[{"id":"674e4ed9c04b054519cc1761","name":"Eletrônico"}]
+
+{"id":"674e62a8c04b054519cc1762","name":"Perfumaria"}
+
+{"id":"674e62fcc04b054519cc1763","name":"jjjj"}
+
+
+GET - /categories (getAll)
+http://localhost:8080/categories
+
+
+PUT - /categories/{id} (update)
+
+http://localhost:8080/categories/{id}
+
+http://localhost:8080/categories/674e62fcc04b054519cc1763
+
+{
+"id": "674e62fcc04b054519cc1763",
+  "name": "bazar"
+}
+
+
+http://localhost:8080/categories/{id}
+
+http://localhost:8080/categories/674e62fcc04b054519cc1763
+
+
+GET - /categories/pageable (getAllPage)
+
+http://localhost:8080/categories/pageable	
+
+
+

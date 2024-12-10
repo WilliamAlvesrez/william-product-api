@@ -1,0 +1,36 @@
+post produto
+http://localhost:8080/products
+{
+  "productIdentifier": "video-game",
+  "name": "Video Game",
+  "price": 2000.0,
+  "description": "Um video game",
+  "category": {
+    "id": "674e4ed9c04b054519cc1761",
+    "name": "Eletrônico"
+  }
+}
+
+put
+http://localhost:8080/products/6745437b6ad15941d1cd30d1
+
+{
+  "productIdentifier": "video-game",
+  "nome": "Video Game",
+  "preco": 2000.0,
+  "descricao": "Um video game",
+  "category": {
+    "id": "674e4ed9c04b054519cc1761",
+    "name": "Eletrônico"
+  }
+}
+
+
+delete
+http://localhost:8080/products/6745437b6ad15941d1cd30d1
+
+
+http://localhost:8080/products/pageable
+
+
+http://localhost:8080/products/category/674e4ed9c04b054519cc1761
